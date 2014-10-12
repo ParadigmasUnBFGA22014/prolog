@@ -21,7 +21,10 @@ option(1):- write('Quais ingredientes você tem?'), nl, !.
 option(2):- write('Quais ingredientes você tem?'), nl, !.
 option(_):- write('Digite uma opcao valida.'), nl, !.
 
+%sopas(NOME DA SOPA,INGREDIENTES....).
 
+
+sopas()
 sopaCremosaDeAbobrinha(abobrinha,batata,cebola,alho,leite,cremeDeLeite,amidoDeMilho,sal,pimentaDoReino).
 
 sopaDeFrangoComLeiteDeCoco(PeitoDeFrango,agua,leiteDeCoco,cebola,azeiteDeOliva,macarraoConchinha,coentro,pimentaDedoDeMoca,cafe,sal).
